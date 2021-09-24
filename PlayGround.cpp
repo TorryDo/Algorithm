@@ -11,7 +11,7 @@ int main()
 {
     set<int> si;
     si.insert(2);
-    bool b = si.count(1);
+    bool b = si.count(2);
 
     printf(b ? "true" : "false");
 
