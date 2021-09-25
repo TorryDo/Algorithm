@@ -9,11 +9,8 @@ using namespace std;
 
 int main()
 {
-    set<int> si;
-    si.insert(2);
-    bool b = si.count(2);
-
-    printf(b ? "true" : "false");
+    
+    int i = 0;
 
     return 0;
 }
