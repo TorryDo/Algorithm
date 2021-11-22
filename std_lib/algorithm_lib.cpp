@@ -9,17 +9,17 @@
 
 using namespace std;
 
-vector<int> *getUnorderedListofInt()
+vector<int> getUnorderedListofInt()
 {
-    vector<int> *intList;
-    *intList = {1, 3, 2, 4, 7, 3, 77, 3, 66, 3, 653, 56, 3, 2, 0, 1, 9};
-    return *intList;
+    vector<int> intList;
+    intList = {1, 3, 2, 4, 7, 3, 77, 3, 66, 3, 653, 56, 3, 2, 0, 1, 9};
+    return intList;
 }
 
 int main()
 {
 
-    vector<int> *vectorInts = getUnorderedListofInt();
+    vector<int> vectorInts = getUnorderedListofInt();
 
     // int arrayInts[17] = {1, 3, 2, 4, 7, 3, 77, 3, 66, 3, 653, 56, 3, 2, 0, 1, 9};
     // int arraySize = sizeof(arrayInts) / sizeof(arrayInts[0]);
