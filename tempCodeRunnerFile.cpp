@@ -1,0 +1,3 @@
+
+    temp = first;
+    temp = last;
