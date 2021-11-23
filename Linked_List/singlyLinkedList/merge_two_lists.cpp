@@ -55,9 +55,3 @@ SinglyLinkedListNode *mergeLists(SinglyLinkedListNode *head1, SinglyLinkedListNo
 
     return root;
 }
-
-int main()
-{
-
-    return 0;
-}
